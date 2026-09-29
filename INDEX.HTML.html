@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>MVELO TRAVELS</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+body{
+    background-image:url("IMAGES/Blue\ and\ Gray\ Modern\ Minimalist\ Ocean\ Conservation\ Presentation.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      min-height: 100vh;
+      color: white;
+
+      /* BACKGROUND IMAGE
+         Replace the URL below with your own travel image if desired.
+      */
+      background:
+        linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+        44
+        url("images/Blue\ and\ Gray\ Modern\ Minimalist\ Ocean\ Conservation\ Presentation.png")
+        center/cover no-repeat fixed;
+    }
+
+    header {
+      width: 100%;
+      padding: 25px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(0, 0, 0, 0.35);
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 25px;
+      font-size: 16px;
+    }
+
+    nav a:hover {
+      color: #25D366;
+    }
+
+    .hero {
+      min-height: calc(100vh - 90px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .hero-content {
+      max-width: 800px;
+      background: rgba(0, 0, 0, 0.55);
+      padding: 55px 40px;
+      border-radius: 18px;
+      backdrop-filter: blur(5px);
+    }
+
+    .hero h1 {
+      font-size: clamp(42px, 8vw, 80px);
+      margin-bottom: 15px;
+      letter-spacing: 4px;
+    }
+
+    .hero h2 {
+      font-size: 30px;
+      margin-bottom: 20px;
+      color: #25D366;
+    }
+
+    .hero p {
+      font-size: 19px;
+      line-height: 1.7;
+      margin-bottom: 30px;
+      color: #f0f0f0;
+    }
+
+    .whatsapp-btn {
+      display: inline-block;
+      background: #25D366;
+      color: white;
+      padding: 16px 30px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+
+    .whatsapp-btn:hover {
+      background: #128C7E;
+      transform: translateY(-3px);
+    }
+
+    .contact-section {
+      min-height: 100vh;
+      padding: 100px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.7);
+    }
+
+    .contact-box {
+      max-width: 700px;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 50px 35px;
+      border-radius: 20px;
+      backdrop-filter: blur(8px);
+    }
+
+    .contact-box h2 {
+      font-size: 42px;
+      margin-bottom: 20px;
+    }
+
+    .contact-box p {
+      font-size: 18px;
+      line-height: 1.7;
+      margin-bottom: 25px;
+    }
+
+    .phone {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.8);
+      color: #ccc;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      nav a {
+        margin: 0 8px;
+      }
+
+      .hero-content {
+        padding: 40px 20px;
+      }
+
+      .hero h2 {
+        font-size: 24px;
+      }
+
+      .hero p {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo">MVELO TRAVELS</div>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+  </header>
+
+
+  <!-- HOME PAGE -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+
+      <h1>MVELO TRAVELS</h1>
+
+      <h2>Our Website Is Currently Down</h2>
+
+      <p>
+        We are currently updating our website and accommodation information.
+        Our online booking and travel services will be available again soon.
+      </p>
+
+      <p>
+        For accommodation enquiries, bookings, travel assistance,
+        or any other questions, please contact us directly on WhatsApp.
+      </p>
+
+      <!--
+        IMPORTANT:
+        Replace 27821234567 with MVELO TRAVELS' real WhatsApp number.
+        South African numbers must use the international format:
+        27 + number without the first 0.
+      -->
+      <a
+
+        href="https://wa.me/27812841637?text=Hello%20MVELO%20TRAVELS%2C%20I%20would%20like%20to%20make%20an%20enquiry."
+        target="_blank"
+        rel="noopener noreferrer"
+        class="whatsapp-btn"
+      >
+        💬 Contact Us on WhatsApp
+      </a>
+
+    </div>
+  </section>
+
+
+  <!-- CONTACT US PAGE / SECTION -->
+  <section class="contact-section" id="contact">
+
+    <div class="contact-box">
+
+      <h2>Contact MVELO TRAVELS</h2>
+      <p>
+        WhatsApp us directly:
+        <strong>+27 81 284 1637</strong>
+      </p>
+      <p>
+        Need help finding accommodation or planning your next trip?
+        Contact MVELO TRAVELS directly on WhatsApp.
+      </p>
+
+      <!-- Replace this number with the real MVELO TRAVELS WhatsApp number -->
+      <div class="phone">
+        📱 +27 81 284 1637
+      </div>
+
+      <a
+        class="whatsapp-btn"
+        href="https://wa.me/27812841637?text=Hello%20MVELO%20TRAVELS%2C%20I%20would%20like%20more%20information."
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        WhatsApp MVELO TRAVELS
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer>
+    &copy; 2026 MVELO TRAVELS. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
